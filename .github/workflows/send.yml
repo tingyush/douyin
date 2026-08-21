@@ -7,9 +7,9 @@ on:
         description: Only verify login and friends without sending
         type: boolean
         default: false
-  schedule:
-    - cron: "0 0 * * *"
-      timezone: "Asia/Shanghai"
+ # schedule:
+ #   - cron: "0 0 * * *"
+ #     timezone: "Asia/Shanghai"
 
 concurrency:
   group: douyin-daily-sender
